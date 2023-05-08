@@ -1,0 +1,26 @@
+.container {
+  height: 100vh;
+}
+.task-area {
+  border: 1px solid lightblue;
+  .task-wrap {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid lightblue;
+    #under-line {
+      height: 4px;
+      background-color: teal;
+      position: absolute;
+      width: 100px;
+      bottom: 0;
+      left: 0;
+    }
+  }
+  .tak-box {
+    padding: 1em;
+  }
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+}
